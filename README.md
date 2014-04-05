@@ -15,17 +15,18 @@ their interactions with their eight neighbors:
 4) A dead cell surrounded by exactly 3 neighbors will be made live
 
 Based on these rules, certain patterns occur, some dynamic, some static. For example,
-                     
->  XX    and      XX
->  XX            X  X
->                 XX
+
+
+    XX    and      XX
+    XX            X  X
+                   XX
 
 are  static patterns. That is, they are stable. An example of a dynamic pattern is 
 a 'blinker':
 
->            X 
->  XXX ----> X ----> XXX ----> ...
->            X
+              X 
+    XXX ----> X ----> XXX ----> ...
+              X
 
 and this movement, if uninhibited, will continue forever. There are patterns that move
 around the board as well, but it is harder to illustrate their behavior through text.
