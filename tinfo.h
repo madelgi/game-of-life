@@ -13,10 +13,10 @@
 // work on.
 //
 typedef struct {
-	grid *in;
-	grid *out;
-	int section, divide;
-	int gen;
+  grid *in;
+  grid *out;
+  int section, divide;
+  int gen;
 } tinfo;
 
 tinfo *initTinfo();

@@ -7,9 +7,9 @@
 // a matrix.
 //
 typedef struct {
-	int rows;
-	int cols;
-	int **val;
+  int rows;
+  int cols;
+  int **val;
 } grid;
 
 grid *initGrid(int rows, int cols);
