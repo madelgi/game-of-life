@@ -9,10 +9,10 @@ by ' '). At the beginning of the game, the grid is randomly populated with a som
 distribution of live and dead cells, and cells are either born or destroyed based on
 their interactions with their eight neighbors:
 
-1) Any live cell with fewer than 2 living neighbors dies of loneliness.
-2) Any live cell with more than 3 living neighbors dies of overcrowding.
-3) A live cell with 2 or 3 neighbors continues on to the next generation
-4) A dead cell surrounded by exactly 3 neighbors will be made live
+1. Any live cell with fewer than 2 living neighbors dies of loneliness.
+2. Any live cell with more than 3 living neighbors dies of overcrowding.
+3. A live cell with 2 or 3 neighbors continues on to the next generation
+4. A dead cell surrounded by exactly 3 neighbors will be made live
 
 Based on these rules, certain patterns occur, some dynamic, some static. For example,
 
